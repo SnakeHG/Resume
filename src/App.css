@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+#wrapper{
+  overflow: hidden;
+  display: flex;
+}
+
+#side{
+  width:15%;
+}
+
+#main{
+  width:85%;
+  margin-left:20px;
+}
+
