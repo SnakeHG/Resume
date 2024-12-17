@@ -4,80 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Henry Geng | Resume</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Global Styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f9f9f9;
-        }
-
-        a {
-            text-decoration: none;
-            color: #0078ff;
-        }
-
-        /* Navbar */
-        nav {
-            background-color: #333;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            padding: 1rem 2rem;
-        }
-
-        nav a {
-            color: #fff;
-            margin: 0 1rem;
-        }
-
-        /* Hero Section */
-        .hero {
-            background-color: #0078ff;
-            color: #fff;
-            text-align: center;
-            padding: 4rem 2rem;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-
-        /* Section Styles */
-        section {
-            padding: 2rem;
-        }
-
-        .section-title {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .experience, .projects {
-            margin-bottom: 2rem;
-        }
-
-        .project-card, .exp-card {
-            background-color: #fff;
-            padding: 1.5rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 1rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: #fff;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -93,15 +20,16 @@
 
     <!-- Hero Section -->
     <header class="hero">
+        <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
         <h1>Henry Geng</h1>
         <p>Software Engineer | Machine Learning Enthusiast | AI Researcher</p>
-	<img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
+        
     </header>
 
     <!-- About Section -->
     <section id="about">
         <h2 class="section-title">About Me</h2>
-        <p>I'm Henry Geng, a software engineer and AI researcher passionate about building AI agents, exploring world models, and generalizing ML paradigms. With a background in physics and software development, I bridge simulations, UI optimization, and machine learning methodologies.</p>
+        <p>I'm Henry Geng, a software engineer with a background in physics and experience in machine learning, automation, and simulation development. I’m particularly interested in exploring the development of robust, scalable solutions that integrate various ML techniques to enhance system performance. Additionally, I’m passionate about ensuring the security and integrity of our day-to-day systems: to safeguard against vulnerabilities and build resilient solutions in a global environment.  </p>
     </section>
 
     <!-- Experience Section -->
@@ -109,19 +37,15 @@
         <h2 class="section-title">Experience</h2>
 
         <div class="exp-card">
+            <h3>QA Automation Co-op</h3>
+            <p><strong>Commonwealth Financial Network</strong> | QA Automation Team</p>
+            <p>As a member of the QA Automation team, I developed and maintained automated testing frameworks to improve the efficiency and reliability of the software development process. I created and executed test scripts, identified bugs, and collaborated closely with developers to ensure high-quality releases. My work focused on streamlining testing procedures and enhancing the overall quality assurance process through automation.</p>
+        </div>
+
+        <div class="exp-card">
             <h3>Software Engineering Co-op</h3>
-            <p><strong>Art and Simulation Team</strong> | CNC Machine Simulation</p>
-            <p>Enhanced simulation UI previews, optimized performance with C++ multithreading, and improved legacy codebase within an Agile/Scrum environment.</p>
-        </div>
-
-        <div class="exp-card">
-            <h3>QA Automation Team</h3>
-            <p>Built and maintained automation frameworks for software testing.</p>
-        </div>
-
-        <div class="exp-card">
-            <h3>Physics Lab Researcher</h3>
-            <p>Conducted experiments and implemented simulation-based approaches.</p>
+            <p><strong>CNC Software LLC</strong> | Art and Simulation Team</p>
+            <p>As a Software Engineer on the Art and Simulation team, I contributed to enhancing the user interface for simulation previews, improving the overall user experience. I optimized modeling performance through C++ multi-threading, significantly increasing efficiency and reducing processing time. Additionally, I worked on updating legacy code and collaborated with the team using Agile and Scrum methodologies to ensure seamless software delivery for CNC machine simulation visualization.</p>
         </div>
     </section>
 
@@ -130,32 +54,38 @@
         <h2 class="section-title">Projects</h2>
 
         <div class="project-card">
-            <h3>Simulation Optimization</h3>
-            <p>Built an optimized multi-threaded simulation engine using C++ for CNC machine models, improving runtime performance by 25%.</p>
+            <h3>Brain Hemorrhage CNN</h3>
+            <p>With my team, we developed a Convolutional Neural Network (CNN) for detecting brain hemorrhages from CT scan images. The model was designed to accurately identify and classify hemorrhages, assisting in early diagnosis and improving clinical decision-making. My work included model building/training, data preprocessing, and performance tuning to ensure high accuracy and reliability in medical applications.</p>
         </div>
 
         <div class="project-card">
-            <h3>Panoramic Learning Research</h3>
-            <p>Exploring unification of supervised, reinforcement, and adversarial learning paradigms to build AI agents.</p>
+            <h3>Qthreads </h3>
+            <p>I developed a custom POSIX thread implementation to explore concurrency and parallelism in a complex software system. This custom thread was built using C and assemlby, following a cooperative threading model. The process provided valuable insights into thread management, allowing for explorations into concurrency and stack managment.</p>
         </div>
 
         <div class="project-card">
-            <h3>World Models Development</h3>
-            <p>Researching machine reasoning frameworks that generalize beyond LLMs using world models.</p>
+            <h3>Unix-like Shell</h3>
+            <p>Developed a Unix-like command-line shell in C, implementing key features for interactive user experience and system process control. Built a command parser to interpret user input, enabling the execution of system and built-in shell commands. Incorporated process management capabilities, including forking, waiting, and handling child processes, which facilitated both background and foreground execution. Implemented I/O redirection and piping functionality. </p>
         </div>
+
+        <div class="project-card">
+            <h3>Simulation Calculation Optimization</h3>
+            <p>I built an optimized multi-threaded simulation function using C++ for CNC machine models, achieving a 25% improvement in runtime performance. This optimization enhanced the efficiency of the simulation process, allowing for faster model previews and better resource utilization. The engine's improved performance contributed to more accurate and timely results for CNC machining simulations.</p>
+        </div>
+
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title">Contact</h2>
-        <p>Email: <a href="mailto:henrygeng@example.com">henrygeng@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>Email: <a href="mailto:genghenry11@gmail.com">genghenry11@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/SnakeHG" target="_blank">github.com/SnakeHG</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/henry-geng/" target="_blank">linkedin.com/in/henry-geng/</a></p>
+        <p>Phone Number: <span class="number">848-248-1437</span></p>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Henry Geng. All rights reserved.</p>
     </footer>
 </body>
 </html>
