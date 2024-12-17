@@ -12,6 +12,7 @@
         <div><strong>Henry Geng</strong></div>
         <div>
             <a href="#about">About</a>
+            <a href="education">Education</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
@@ -20,9 +21,13 @@
 
     <!-- Hero Section -->
     <header class="hero">
-        <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>Henry Geng</h1>
-        <p>Software Engineer | Machine Learning Enthusiast | AI Researcher</p>
+        <div>
+            <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="title-card">
+            <h1>Henry Geng</h1>
+            <p>Software Engineer </p>
+        </div>
         
     </header>
 
@@ -32,20 +37,46 @@
         <p>I'm Henry Geng, a software engineer with a background in physics and experience in machine learning, automation, and simulation development. I’m particularly interested in exploring the development of robust, scalable solutions that integrate various ML techniques to enhance system performance. Additionally, I’m passionate about ensuring the security and integrity of our day-to-day systems: to safeguard against vulnerabilities and build resilient solutions in a global environment.  </p>
     </section>
 
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="edu-card">
+            <h3>Northeastern University</h3>
+            <p><strong>BS Computer Science and Physics</strong> | Minor in Mathemathics<br/>
+            <strong>2020-2024</strong>
+            </p>
+            GPA: 3.7(Magna Cum Laude)
+            <p>
+                Specialized Coursework:
+                <ul class="courses">
+                    <li>Statistics</li>
+                    <li>Computer Systems</li>
+                    <li>Matrix Methods Data Analysis</li>
+                    <li>Artificial Intelligence</li>
+                  </ul>
+            </p>
+
+        </div>
+    </section>
+
     <!-- Experience Section -->
     <section id="experience">
         <h2 class="section-title">Experience</h2>
 
         <div class="exp-card">
             <h3>QA Automation Co-op</h3>
-            <p><strong>Commonwealth Financial Network</strong> | QA Automation Team</p>
+            <p><strong>Commonwealth Financial Network</strong> | QA Automation Team <br/>
+            <strong>July 2023 - December 2023</strong>
+            </p>
             <p>As a member of the QA Automation team, I developed and maintained automated testing frameworks to improve the efficiency and reliability of the software development process. I created and executed test scripts, identified bugs, and collaborated closely with developers to ensure high-quality releases. My work focused on streamlining testing procedures and enhancing the overall quality assurance process through automation.</p>
+            <p><strong>Skills:</strong> Jenkins, Shell Script, Selenium, C#, Jira, Azure, YAML, Git</p>
         </div>
 
         <div class="exp-card">
             <h3>Software Engineering Co-op</h3>
-            <p><strong>CNC Software LLC</strong> | Art and Simulation Team</p>
+            <p><strong>CNC Software LLC</strong> | Art and Simulation Team<br/>
+            <strong>January 2022 - July 2022</strong></p>
             <p>As a Software Engineer on the Art and Simulation team, I contributed to enhancing the user interface for simulation previews, improving the overall user experience. I optimized modeling performance through C++ multi-threading, significantly increasing efficiency and reducing processing time. Additionally, I worked on updating legacy code and collaborated with the team using Agile and Scrum methodologies to ensure seamless software delivery for CNC machine simulation visualization.</p>
+            <p><strong>Skills:</strong> C++, C#, SVN </p>
         </div>
     </section>
 
@@ -56,11 +87,11 @@
         <div class="project-card">
             <h3>Brain Hemorrhage CNN</h3>
             <p>With my team, we developed a Convolutional Neural Network (CNN) for detecting brain hemorrhages from CT scan images. The model was designed to accurately identify and classify hemorrhages, assisting in early diagnosis and improving clinical decision-making. My work included model building/training, data preprocessing, and performance tuning to ensure high accuracy and reliability in medical applications.</p>
-            <p><a href="https://github.com/SnakeHG/FinalProjectMath4570">code</a></p>
+            <p><a href="https://github.com/SnakeHG/FinalProjectMath4570">repo</a></p>
         </div>
 
         <div class="project-card">
-            <h3>Qthreads /h3>
+            <h3>Qthreads </h3>
             <p>I developed a custom User-space POSIX-like thread to explore concurrency and parallelism in a complex software system. This custom thread was built using C and assemlby, following a cooperative threading model. The process provided valuable insights into thread management, allowing for explorations into concurrency and stack managment.</p>
         </div>
 
